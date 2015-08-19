@@ -1,0 +1,29 @@
+{
+  "name": "tests_js",
+  "version": "0.0.0",
+  "description": "Tests for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "watchify -v -o dev/bundle.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fcracker79/tests_js.git"
+  },
+  "keywords": [
+    "learn",
+    "javascript"
+  ],
+  "author": "fcracker79",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcracker79/tests_js/issues"
+  },
+  "dependencies": {
+    "emit": "0.0.2"
+  },
+  "devDependencies": {
+    "watchify": "~3.3.1"
+  }
+}
